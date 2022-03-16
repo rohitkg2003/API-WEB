@@ -16,7 +16,9 @@ import './index.css';
   },[]);
   return (
    <>
-   
+    if(users.length===0){
+    return <div></div>
+  }
    <div className="container">
     <div className="map">
       <img src=''></img>
